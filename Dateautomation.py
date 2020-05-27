@@ -4,9 +4,9 @@ driver=webdriver.Chrome('C:\\Users\\ASUS\\Desktop\\driver\\chromedriver')
 
 driver.get('https://uims.cuchd.in/uims/')
 
-driver.find_element_by_id('txtUserId').send_keys('11817474')
+driver.find_element_by_id('txtUserId').send_keys('uid')
 driver.find_element_by_name('btnNext').click()
-driver.find_element_by_id('txtLoginPassword').send_keys('Ashok@xyz6871')
+driver.find_element_by_id('txtLoginPassword').send_keys('pass')
 driver.find_element_by_name('btnLogin').click()
 
 driver.get('https://uims.cuchd.in/UIMS/frmStudentCourseWiseAttendanceSummary.aspx')
